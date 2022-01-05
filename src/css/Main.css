@@ -1,0 +1,161 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+}
+
+.main .content {
+    cursor: pointer;
+    padding: 60px;
+    transition: 1.5s;
+    font-size: 50px;
+    color: black;
+}
+
+.main .content:hover {
+    background-color: #94b5f3;
+    color: white;
+}
+
+.main .lottie {
+    background-color: white;
+    height: 200px;
+}
+
+.main .divisor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    background-color: #6EC1E4;
+    height: 200px;
+    font-size: 50px;
+    transition: 2s;
+}
+
+.main .background {
+    background-color: #333;
+    padding: 10px;
+    margin-right: 200px;
+    transition: 2s;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imgs img {
+    width: 100px;
+}
+
+.conteudo {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo .strong {
+    color: #5e3ea1;
+}
+
+.conteudo h1 {
+    color: black;
+}
+
+.conteudo {
+    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.conteudo p {
+    margin-top: 10px;
+}
+
+.otimizar{
+    background-color: #7cfcc2;
+    padding: 10px;
+    color: black;
+} 
+
+.atualizar {
+    background-color: #e7426b;
+    color: white;
+    padding: 10px;
+}
+
+.resultado {
+    color:  white;
+    background-color: #3e2a68;
+    padding: 10px;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    background-color: #6EC1E4;
+    height: 630px;
+    margin-bottom: 40px;
+}
+
+.contato h1 {
+    text-align: center;
+}
+
+.contato strong {
+    color: #e7426b;
+}
+
+.contato p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.formulario {
+    margin-top: 20px;
+    background-color: white;
+    padding: 50px;
+}
+
+.formulario p {
+    color: black;
+
+}
+
+.formulario input {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: black;
+    width: 400px;
+    outline: none;
+}
+
+.formulario label {
+    color: black;
+}
+
+.button {
+    color: white;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 110px;
+    background-color: skyblue;
+}
+
+.button:hover {
+    background-color: dodgerblue;
+    color: white;
+}

@@ -1,0 +1,8 @@
+.subrodapé {
+    background-color: #3e2a68;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

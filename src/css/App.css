@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Teko-Light" ;
+    src: url("../fonts/Teko-Light.ttf");
+}
+
+* {
+    font-family: "Teko-Light";
+    margin: 0;
+    padding: 0;
+    color: white;
+} 
+
+.app {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 80px 1fr 90px 60px;
+    grid-template-areas: 
+        "logo nav"
+        "main main"
+        "footer footer"
+        "rodapé rodapé"
+    ;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.subrodapé {
+    grid-area: rodapé;
+}

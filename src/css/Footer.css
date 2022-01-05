@@ -1,0 +1,34 @@
+.footer {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 3px rgb(75, 149, 179);
+}
+
+.footer img {
+    transition: 0.4s;
+}
+
+.footer .linkedin {
+    background-color: white;
+    padding: 7px;
+    margin-right: 40px;
+}
+
+.footer .instagram {
+    background-color: orange;
+    padding: 7px;
+}
+
+.footer .instagram:hover {
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
+.footer .linkedin:hover {
+    background-color: skyblue;
+    border-radius: 20px;
+}
+
