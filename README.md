@@ -12,4 +12,4 @@ Para o desafio, estava dizendo que para fazer a landing page, teria que ser feit
 
 # explicando o projeto 
 
-3 - No projeto, sendo ele focado somente no front-end, tive a liberdade de criar um layout simples porém amigável! Na funcionalidade criei um formulário no qual trás a ideia de que quando o usuário digitar os seus dados poderemos ajudá-lo enviando um e-mail ou o contatando pelo celular! Agora, quando codei o formulário, eu poderia ter manipulado os dados via useState, mas eu queria fazer algo diferente, manipulando os dados via DOM, usando o useRef! 
+3 - No projeto, sendo ele focado somente no front-end, tive a liberdade de criar um layout simples porém amigável! Na funcionalidade criei um formulário na qual traz a ideia de que quando o usuário digitar os seus dados poderemos ajudá-lo enviando um e-mail ou o contatando pelo celular! Agora, quando codei o formulário, eu poderia ter manipulado os dados via useState, mas eu queria fazer algo diferente, manipulando os dados via DOM, usando o useRef! 
